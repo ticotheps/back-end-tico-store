@@ -1,7 +1,7 @@
 {
-  "name": "sick-fits-backend",
+  "name": "back-end-tico-store",
   "version": "1.0.0",
-  "description": "the backend of sick fits",
+  "description": "the back-end of tico's store",
   "scripts": {
     "start": "nodemon -e js,graphql -x node src/index.js",
     "dev": "nodemon -e js,graphql -x node --inspect src/index.js",
@@ -27,11 +27,14 @@
   },
   "license": "MIT",
   "repository": {
-    "url": "wesbos.com"
+    "url": "heytico.com"
   },
   "babel": {
     "presets": [
       "env"
     ]
-  }
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "Tico S. Thepsourinthone"
 }
